@@ -9,6 +9,7 @@ The first steps are:
 - Install vagrant plugin ``vagrant plugin install vagrant-vbguest``
 - cd to the cloned directory
 - Type in ``vagrant up`` to your terminal window
+- Type in ``vagrant reload`` to your terminal window
 
 If you get errors about ntopng, issue a ``vagrant provision``. The provision command will install the main dependencies, the [ntopng](http://www.ntop.org/products/ntop/) svn source code and the [nbox](http://www.ntop.org/products/nbox-2/nbox/) package.
 
@@ -20,11 +21,13 @@ First you have to start ntopng:
 - ``cd ntopng``
 - ``sudo ./ntopng``
 
-Now the dashboard can be accessed at [http://192.168.22.10:3000](http://192.168.22.10:3000).
+Now the dashboard can be accessed at [http://192.168.22.10:3000](http://192.168.22.10:3000)
+Default user/password: admin/admin.
 
 ###Nbox Dashboard
 
 The dashboard can be accessed at [https://192.168.22.10](https://192.168.22.10).
+Default user/password: nbox/nbox.
 
 ##The headlines
 <table>
