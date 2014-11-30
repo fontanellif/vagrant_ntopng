@@ -2,7 +2,7 @@ vagrant-ntopng
 ==============
 
 This is a Vagrantfile for running a testing setup for ntopng.
-The first step are:
+The first steps are:
 
 - Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - Install [Vagrant](http://downloads.vagrantup.com/)
