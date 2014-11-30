@@ -1,7 +1,7 @@
 vagrant-ntopng
 ==============
 
-This is a Vagrantfile for running a testing setup for ntopng.
+This is a Vagrantfile for running a testing setup for [ntopng](http://www.ntop.org/products/ntop/).
 The first steps are:
 
 - Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
@@ -10,7 +10,7 @@ The first steps are:
 - cd to the cloned directory
 - Type in ``vagrant up`` to your terminal window
 
-If you get errors about ntopng, issue a ``vagrant provision``.
+If you get errors about ntopng, issue a ``vagrant provision``. The provision command will install the main dependencies, the [ntopng](http://www.ntop.org/products/ntop/) svn source code and the [nbox](http://www.ntop.org/products/nbox-2/nbox/) package.
 
 ###Ntopng Dashboard
 
