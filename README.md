@@ -9,7 +9,6 @@ The first step are:
 - Install vagrant plugin ``vagrant plugin install vagrant-vbguest``
 - cd to the cloned directory
 - Type in ``vagrant up`` to your terminal window
-- Profit
 
 If you get errors about ntopng, issue a ``vagrant provision``.
 
