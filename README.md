@@ -36,4 +36,4 @@ The dashboard can be accessed at [https://192.168.22.10](https://192.168.22.10).
 
 ###Shared directory
 
-After the vagrant up, you will find the ``trunk`` directory inside the cloned directory.
+After the vagrant up, you will find the ``trunk`` directory inside the cloned directory. This direcotory contains the ntopng source code.
