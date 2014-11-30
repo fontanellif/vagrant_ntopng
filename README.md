@@ -29,6 +29,7 @@ The dashboard can be accessed at [https://192.168.22.10](https://192.168.22.10).
 ##The headlines
 <table>
 <tr><th>IP Address</th><td>192.168.22.10</td></tr>
+<tr><th>SSH</th><td>ssh vagrant@127.0.0.1 -p 2222</td></tr>
 <tr><th>Ntopng Dashboard URL</th><td>http://192.168.22.10:3000</td></tr>
 <tr><th>Nbox Dashboard URL</th><td>https://192.168.22.10</td></tr>
 </table>
