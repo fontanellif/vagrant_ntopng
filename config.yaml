@@ -1,0 +1,7 @@
+---
+configs:
+   private_ip: '192.168.22.10'
+   http_portforward: '8080'
+   box: 'ubuntu/trusty64'
+   cpus: '2'
+   memory: '1500'
