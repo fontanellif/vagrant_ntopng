@@ -17,7 +17,7 @@ pwd
 ./autogen.sh
 ./configure
 make geoip
-ake 
+make 
 
 # nBox
 cd /home/vagrant
