@@ -5,13 +5,21 @@ apt-get -y upgrade
 
 # Dependencies
 apt-get install -y build-essential libsqlite3-0 libgeoip1 redis-server librrd4 libhiredis0.10 libcurl3 gdb
-apt-get install -y libtool autoconf automake subversion rrdtool wget pkg-config
-apt-get install -y libsqlite3-dev libhiredis-dev libpcap-dev  libgeoip-dev libcurl4-gnutls-dev libjson-c-dev libglib2.0-dev libxml2-dev
+apt-get install -y libtool autoconf automake subversion rrdtool wget pkg-config git
+apt-get install -y libsqlite3-dev libhiredis-dev libpcap-dev  libgeoip-dev libcurl4-gnutls-dev libjson-c-dev libglib2.0-dev libxml2-dev libmysqlclient-dev
+
+# ndpi
+cd /home/vagrant
+pwd
+git clone https://github.com/ntop/nDPI.git
+cd nDPI
+./autogen.sh
+make
 
 # ntopng
 cd /home/vagrant
 pwd
-svn co https://svn.ntop.org/svn/ntop/trunk/ntopng
+git clone https://github.com/ntop/ntopng
 cd ntopng
 pwd
 ./autogen.sh
@@ -22,7 +30,7 @@ make
 # nBox
 cd /home/vagrant
 pwd
-wget http://www.nmon.net/apt/14.04/all/apt-ntop.deb
+wget http://apt.ntop.org/14.04/all/apt-ntop.deb
 sudo dpkg -i apt-ntop.deb
 rm -rf apt-ntop.deb
 apt-get clean all
