@@ -22,7 +22,7 @@ make
 # nBox
 cd /home/vagrant
 pwd
-wget http://www.nmon.net/apt/14.04/all/apt-ntop.deb
+wget http://apt.ntop.org/14.04/all/apt-ntop.deb
 sudo dpkg -i apt-ntop.deb
 rm -rf apt-ntop.deb
 apt-get clean all
